@@ -32,7 +32,6 @@ int main(void){
         }
     }
     printf("\nThe Strong numbers are:");
-
     for(int i = j; i < j+range+1; i++){
         if(isStrong(i)){
             printf(" %d", i);
@@ -40,26 +39,5 @@ int main(void){
     }
     printf("\n");
 
-
-
-
-
-
-
-
-    // int x,y;
-    // scanf("%d%d",&x, &y);
-    // for(x; x<=y; x++){
-    //     if(isPrime(x)){
-    //         printf("%d ", x);
-    //     }
-    // }
-    // printf("\n");
-    // for(x; x<=y; x++){
-    //     if(isArmstrong(x)){
-    //         printf("%d ", x);
-    //     }
-    // }
-    // printf("\n");
     return 0;
 }
